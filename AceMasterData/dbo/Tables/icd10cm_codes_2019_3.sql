@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[icd10cm_codes_2019_3] (
+    [ICT10CM_CODE]   VARCHAR (50) NULL,
+    [CODE DEFNITION] VARCHAR (50) NULL
+);
+

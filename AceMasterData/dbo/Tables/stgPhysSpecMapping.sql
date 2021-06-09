@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[stgPhysSpecMapping] (
+    [SRC_VALUE] NVARCHAR (255) NULL,
+    [SRC_NAME]  NVARCHAR (255) NULL,
+    [TRG_VALUE] NVARCHAR (255) NULL,
+    [TRG_NAME]  NVARCHAR (255) NULL
+);
+

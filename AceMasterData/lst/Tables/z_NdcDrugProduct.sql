@@ -1,0 +1,25 @@
+﻿CREATE TABLE [lst].[z_NdcDrugProduct] (
+    [NdcDrugProductKey]             INT            IDENTITY (1, 1) NOT NULL,
+    [ProductID]                     VARCHAR (60)   NULL,
+    [ProductNDC]                    VARCHAR (50)   NULL,
+    [ProductTypeName]               VARCHAR (50)   NULL,
+    [ProprietaryName]               VARCHAR (400)  NULL,
+    [ProprietaryNameSuffix]         VARCHAR (150)  NULL,
+    [NonProprietaryName]            VARCHAR (600)  NULL,
+    [DosageFormName]                VARCHAR (60)   NULL,
+    [RouteName]                     VARCHAR (200)  NULL,
+    [StartMarketingDate]            VARCHAR (50)   NULL,
+    [EndMarketingDate]              VARCHAR (50)   NULL,
+    [MarketingCategoryName]         VARCHAR (50)   NULL,
+    [ApplicationNumber]             VARCHAR (50)   NULL,
+    [LabelerName]                   VARCHAR (200)  NULL,
+    [SubstanceName]                 VARCHAR (5000) NULL,
+    [ActiveNumeratorStrength]       VARCHAR (1000) NULL,
+    [ActiveIngredUnit]              VARCHAR (2500) NULL,
+    [PharmClasses]                  VARCHAR (5000) NULL,
+    [DeaSchedule]                   VARCHAR (50)   NULL,
+    [NdcExcludeFlag]                VARCHAR (50)   NULL,
+    [ListingRecordCertifiedThrough] VARCHAR (50)   NULL,
+    PRIMARY KEY CLUSTERED ([NdcDrugProductKey] ASC)
+);
+

@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[ICD10PCS-CCSCategoryT] (
+    [ICD-10-PCS CODE]             VARCHAR (50)  NULL,
+    [CCS CATEGORY]                VARCHAR (5)   NULL,
+    [ICD-10-PCS CODE DESCRIPTION] VARCHAR (150) NULL,
+    [CCS CATEGORY DESCRIPTION]    VARCHAR (150) NULL,
+    [MULTI CCS LVL 1]             VARCHAR (150) NULL,
+    [MULTI CCS LVL 1 LABEL]       VARCHAR (150) NULL,
+    [MULTI CCS LVL 2]             VARCHAR (150) NULL,
+    [MULTI CCS LVL 2 LABEL]       VARCHAR (150) NULL,
+    [Column 8]                    VARCHAR (150) NULL
+);
+
